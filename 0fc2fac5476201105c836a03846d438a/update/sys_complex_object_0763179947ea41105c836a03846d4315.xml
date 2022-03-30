@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4363179910ea4110686c62d7f70cd615</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0fc2fac5476201105c836a03846d438a</scope_name>
+        <serialized_content>{"FlowDesigner:FD4363179910ea4110686c62d7f70cd615":{"array_of_parameter":["Any"],"array_of_parameter.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"array_of_parameter\",\"mandatory\":\"false\",\"child_name\":\"parameter\",\"uiUniqueId\":\"b9553809-b05c-4473-bc03-b51a1e132433\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"parameter\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"d5ca400e-8d0c-4ee3-a5d8-3e5b0b96b2eb\"}"}},"FlowDesigner:FD4363179910ea4110686c62d7f70cd615.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Parameters\",\"mandatory\":\"true\",\"uiUniqueId\":\"b57aaffd-13e9-4c7c-b7a3-3b31385e852d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD4363179910ea4110686c62d7f70cd615\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-29 14:56:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0763179947ea41105c836a03846d4315</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FD4363179910ea4110686c62d7f70cd615</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name>sys_complex_object_0763179947ea41105c836a03846d4315</sys_update_name>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-29 15:10:08</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

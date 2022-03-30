@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7c7d20212d268110ddfb141e9acbd79d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0fc2fac5476201105c836a03846d438a</scope_name>
+        <serialized_content>{"FlowDesigner:FD7c7d20212d268110ddfb141e9acbd79d":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD7c7d20212d268110ddfb141e9acbd79d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"8f091c34-90f6-4a6b-ba85-e8b50a28468d\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Parameters\",\"mandatory\":\"true\",\"child_name\":\"parameters_child0\",\"uiUniqueId\":\"b57aaffd-13e9-4c7c-b7a3-3b31385e852d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7c7d20212d268110ddfb141e9acbd79d\",\"child_label\":\"Parameters_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"84fb4de5-1fb9-4b85-a1a4-0dae277c2eb0\",\"hint\":\"\",\"uiType\":\"object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"0\",\"child_uiUniqueId\":\"ac5fb74b-9fcc-4c77-a8a5-10cf660c66cd\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-29 21:29:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>307d2021472681105c836a03846d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD7c7d20212d268110ddfb141e9acbd79d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name>sys_complex_object_307d2021472681105c836a03846d439e</sys_update_name>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-29 21:29:30</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>ingest_windows_mid_file</internal_name>
+        <label_cache>[{"name":"{{action.mid_server}}","label":"action➛MID Server","type":"action","ref":"","reference_display":"MID Server","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_path}}","label":"action➛File Path","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.mid_server.home_dir}}","label":"action➛MID Server➛Home directory","type":"action","ref":"","reference_display":"Home directory","base_type":"string","parent_table_name":"ecc_agent","column_name":"home_dir","choices":null,"attributes":{}},{"name":"{{step[27a983c9-40f2-4e8f-aed9-4c0f1fbc821e].output}}","label":"step➛PowerShell step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>88eeb2c947a201105c836a03846d4362</master_snapshot>
+        <name>Ingest Windows MID File</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:03:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5a4fac5476201105c836a03846d43f6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Ingest Windows MID File</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c5a4fac5476201105c836a03846d43f6</sys_update_name>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5a4fac5476201105c836a03846d43f6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c5a4fac5476201105c836a03846d43f6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c5a4fac5476201105c836a03846d43f6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>1d487a0147a201105c836a03846d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">d5487a0147a201105c836a03846d434b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c5a4fac5476201105c836a03846d43f6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>dd487a0147a201105c836a03846d4365</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:43</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD49487a018ba20110b9d3182a1a782242":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD49487a018ba20110b9d3182a1a782242.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"ddcc5b73-d3e2-4e73-9127-1cef1983eae4\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD49487a018ba20110b9d3182a1a782242\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">8d487a0147a201105c836a03846d4345</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c5a4fac5476201105c836a03846d43f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>file_content</field>
+        <id>c5a4fac5476201105c836a03846d43f6</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:43</sys_created_on>
+        <sys_id>4b68be0147a201105c836a03846d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</table>
+        <value>{{step[27a983c9-40f2-4e8f-aed9-4c0f1fbc821e].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>c5a4fac5476201105c836a03846d43f6</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>99487a0147a201105c836a03846d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>c5a4fac5476201105c836a03846d43f6</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>d5487a0147a201105c836a03846d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=c5a4fac5476201105c836a03846d43f6^sys_idNOT INe828760147a201105c836a03846d4310"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</action>
+        <cid>27a983c9-40f2-4e8f-aed9-4c0f1fbc821e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>PowerShell step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="PowerShell">486f577a3721030003a08fb77e41f1d6</step_type>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>e828760147a201105c836a03846d4310</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:32:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e828760147a201105c836a03846d4310"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e828760147a201105c836a03846d4310</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>3028760147a201105c836a03846d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">4ecf1b7a3721030003a08fb77e41f149</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e828760147a201105c836a03846d4310</document_key>
+        <order>96</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>3428760147a201105c836a03846d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <value>427709a60a0006bc7d2904e99132532d</value>
+        <variable display_value="Capabilities">2046cd992f201300a09a839fb18c956d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e828760147a201105c836a03846d4310</document_key>
+        <order>95</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>7c28760147a201105c836a03846d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">306d63c25f101300a09a2abd7f466627</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e828760147a201105c836a03846d4310</document_key>
+        <order>140</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>b828760147a201105c836a03846d4334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:32:54</sys_updated_on>
+        <value>#******* Format to access Input Parameters *******
+# To use variable, prefix with '$'. eg. $message
+# Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
+
+#******* Reserved variables available when remoting type is Run on MID
+# $computer   Host IP resolved from Connection alias
+# $cred       Credential Object. Credential resolved via connection alias or credential alias. This can be used in conjunction with any cmd-let which support credential parameter eg. New-PSSession -credential $cred
+# $log_info   mid property "mid.property.powershell.log_info" set on instance to enable debugging. So it's a flag available to act on and add any verbose logging if they want to in their script
+type $homeDir\$filePath</value>
+        <variable display_value="Command">c54323fa3721030003a08fb77e41f16e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e828760147a201105c836a03846d4310</document_key>
+        <order>130</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>f028760147a201105c836a03846d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <value>inline_script</value>
+        <variable display_value="Script Type">e6f26fba3721030003a08fb77e41f1eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e828760147a201105c836a03846d4310</document_key>
+        <order>160</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>f428760147a201105c836a03846d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Input Variables">2183a3fa3721030003a08fb77e41f1c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e828760147a201105c836a03846d4310</document_key>
+        <order>92</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>f828760147a201105c836a03846d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">6fe4838373531010791f94596bf6a77e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e828760147a201105c836a03846d4310"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>f028760147a201105c836a03846d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>f428760147a201105c836a03846d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>3028760147a201105c836a03846d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>b428760147a201105c836a03846d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>input_variables</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>b828760147a201105c836a03846d4332</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value>{"filePath":"{{action.file_path}}","homeDir":"{{action.mid_server.home_dir}}"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>bc28760147a201105c836a03846d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>7c28760147a201105c836a03846d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value>{{action.mid_server}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script_type</field>
+        <id>e828760147a201105c836a03846d4310</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>7828760147a201105c836a03846d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e828760147a201105c836a03846d4310"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e828760147a201105c836a03846d4310"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e828760147a201105c836a03846d4310"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e828760147a201105c836a03846d4310"/>
+    <sys_hub_action_input action="delete_multiple" query="model=c5a4fac5476201105c836a03846d43f6^sys_idNOT IN6828760147a201105c836a03846d4301,6c28760147a201105c836a03846d430a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=78890ac0-f32f-4011-af96-d11a0502c7b3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>ecc_agent</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>MID Server</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</model>
+        <model_id>c5a4fac5476201105c836a03846d43f6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c5a4fac5476201105c836a03846d43f6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="ecc_agent">ecc_agent</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>6828760147a201105c836a03846d4301</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6828760147a201105c836a03846d4301"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f33a6127-44fd-4d31-be72-d56a0973e146</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>file_path</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>File Path</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</model>
+        <model_id>c5a4fac5476201105c836a03846d43f6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c5a4fac5476201105c836a03846d43f6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>6c28760147a201105c836a03846d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6c28760147a201105c836a03846d430a"/>
+    <sys_hub_action_output action="delete_multiple" query="model=c5a4fac5476201105c836a03846d43f6^sys_idNOT IN51487a0147a201105c836a03846d435f,8d487a0147a201105c836a03846d4345,d5487a0147a201105c836a03846d434b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=e2c91011-e94a-42e3-beb0-e793bb21d4a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>file_content</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6">4b98e37e3721030003a08fb77e41f1aa</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>File Content</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</model>
+        <model_id>c5a4fac5476201105c836a03846d43f6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>51487a0147a201105c836a03846d435f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=51487a0147a201105c836a03846d435f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=51487a0147a201105c836a03846d435f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD49487a018ba20110b9d3182a1a782242,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ddcc5b73-d3e2-4e73-9127-1cef1983eae4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</model>
+        <model_id>c5a4fac5476201105c836a03846d43f6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>8d487a0147a201105c836a03846d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d487a0147a201105c836a03846d4345"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8d487a0147a201105c836a03846d4345"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=041d3336-5f6d-4d13-9ef5-75901931b753,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</model>
+        <model_id>c5a4fac5476201105c836a03846d43f6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>d5487a0147a201105c836a03846d434b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d5487a0147a201105c836a03846d434b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5487a0147a201105c836a03846d434b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c5a4fac5476201105c836a03846d43f6"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c5a4fac5476201105c836a03846d43f6^sys_idNOT IN3c28760147a201105c836a03846d4339"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</action_type_id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>3c28760147a201105c836a03846d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3c28760147a201105c836a03846d4339"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c5a4fac5476201105c836a03846d43f6^sys_idNOT IN6428760147a201105c836a03846d430e,a828760147a201105c836a03846d4309"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>file_path</element>
+        <help/>
+        <hint/>
+        <label>File Path</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c5a4fac5476201105c836a03846d43f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>6428760147a201105c836a03846d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server</element>
+        <help/>
+        <hint/>
+        <label>MID Server</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c5a4fac5476201105c836a03846d43f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:18:28</sys_created_on>
+        <sys_id>a828760147a201105c836a03846d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:18:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c5a4fac5476201105c836a03846d43f6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6^sys_idNOT IN59487a0147a201105c836a03846d434a,59487a0147a201105c836a03846d4362,d1487a0147a201105c836a03846d435e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>59487a0147a201105c836a03846d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>file_content</element>
+        <help/>
+        <hint/>
+        <label>File Content</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>59487a0147a201105c836a03846d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:19:03</sys_created_on>
+        <sys_id>d1487a0147a201105c836a03846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:19:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c5a4fac5476201105c836a03846d43f6"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=c5a4fac5476201105c836a03846d43f6^sys_idNOT INa0eef2c947a201105c836a03846d430b"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a0eef2c947a201105c836a03846d430b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>94eeb2c947a201105c836a03846d439d</snapshot>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0eef2c947a201105c836a03846d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:57</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ingest_windows_mid_file</internal_name>
+        <label_cache>[{"name":"{{action.mid_server}}","label":"action➛MID Server","type":"action","ref":"","reference_display":"MID Server","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.file_path}}","label":"action➛File Path","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.mid_server.home_dir}}","label":"action➛MID Server➛Home directory","type":"action","ref":"","reference_display":"Home directory","base_type":"string","parent_table_name":"ecc_agent","column_name":"home_dir","choices":null,"attributes":{}},{"name":"{{step[27a983c9-40f2-4e8f-aed9-4c0f1fbc821e].output}}","label":"step➛PowerShell step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Ingest Windows MID File</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Ingest Windows MID File">c5a4fac5476201105c836a03846d43f6</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88eeb2c947a201105c836a03846d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=88eeb2c947a201105c836a03846d4362"/>
+    <sys_variable_value action="delete_multiple" query="document_key=88eeb2c947a201105c836a03846d4362"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>88eeb2c947a201105c836a03846d4362</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>9ceeb2c947a201105c836a03846d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD4ceeb2c93da20110ca884e503a6c5881":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD4ceeb2c93da20110ca884e503a6c5881.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"ddcc5b73-d3e2-4e73-9127-1cef1983eae4\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD4ceeb2c93da20110ca884e503a6c5881\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">84eeb2c947a201105c836a03846d4384</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>88eeb2c947a201105c836a03846d4362</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>d8eeb2c947a201105c836a03846d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">5ceeb2c947a201105c836a03846d4389</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=88eeb2c947a201105c836a03846d4362"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>file_content</field>
+        <id>88eeb2c947a201105c836a03846d4362</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>d0eeb2c947a201105c836a03846d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</table>
+        <value>{{step[27a983c9-40f2-4e8f-aed9-4c0f1fbc821e].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>88eeb2c947a201105c836a03846d4362</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>58eeb2c947a201105c836a03846d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>88eeb2c947a201105c836a03846d4362</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>94eeb2c947a201105c836a03846d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=88eeb2c947a201105c836a03846d4362^sys_idNOT INc4eeb2c947a201105c836a03846d4373"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Ingest Windows MID File">88eeb2c947a201105c836a03846d4362</action>
+        <cid>27a983c9-40f2-4e8f-aed9-4c0f1fbc821e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>PowerShell step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="PowerShell">486f577a3721030003a08fb77e41f1d6</step_type>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>c4eeb2c947a201105c836a03846d4373</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c4eeb2c947a201105c836a03846d4373"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4eeb2c947a201105c836a03846d4373</document_key>
+        <order>92</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>00eeb2c947a201105c836a03846d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">6fe4838373531010791f94596bf6a77e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4eeb2c947a201105c836a03846d4373</document_key>
+        <order>95</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>0ceeb2c947a201105c836a03846d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">306d63c25f101300a09a2abd7f466627</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4eeb2c947a201105c836a03846d4373</document_key>
+        <order>140</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>48eeb2c947a201105c836a03846d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <value>#******* Format to access Input Parameters *******
+# To use variable, prefix with '$'. eg. $message
+# Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
+
+#******* Reserved variables available when remoting type is Run on MID
+# $computer   Host IP resolved from Connection alias
+# $cred       Credential Object. Credential resolved via connection alias or credential alias. This can be used in conjunction with any cmd-let which support credential parameter eg. New-PSSession -credential $cred
+# $log_info   mid property "mid.property.powershell.log_info" set on instance to enable debugging. So it's a flag available to act on and add any verbose logging if they want to in their script
+type $homeDir\$filePath</value>
+        <variable display_value="Command">c54323fa3721030003a08fb77e41f16e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4eeb2c947a201105c836a03846d4373</document_key>
+        <order>130</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>80eeb2c947a201105c836a03846d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <value>inline_script</value>
+        <variable display_value="Script Type">e6f26fba3721030003a08fb77e41f1eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4eeb2c947a201105c836a03846d4373</document_key>
+        <order>160</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>84eeb2c947a201105c836a03846d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Input Variables">2183a3fa3721030003a08fb77e41f1c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4eeb2c947a201105c836a03846d4373</document_key>
+        <order>96</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>c0eeb2c947a201105c836a03846d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <value>427709a60a0006bc7d2904e99132532d</value>
+        <variable display_value="Capabilities">2046cd992f201300a09a839fb18c956d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4eeb2c947a201105c836a03846d4373</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>cceeb2c947a201105c836a03846d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">4ecf1b7a3721030003a08fb77e41f149</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c4eeb2c947a201105c836a03846d4373"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>08eeb2c947a201105c836a03846d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>0ceeb2c947a201105c836a03846d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>44eeb2c947a201105c836a03846d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>c8eeb2c947a201105c836a03846d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>input_variables</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>cceeb2c947a201105c836a03846d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value>{"filePath":"{{action.file_path}}","homeDir":"{{action.mid_server.home_dir}}"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>48eeb2c947a201105c836a03846d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>80eeb2c947a201105c836a03846d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value>{{action.mid_server}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script_type</field>
+        <id>c4eeb2c947a201105c836a03846d4373</id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>8ceeb2c947a201105c836a03846d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c4eeb2c947a201105c836a03846d4373"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c4eeb2c947a201105c836a03846d4373"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c4eeb2c947a201105c836a03846d4373"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c4eeb2c947a201105c836a03846d4373"/>
+    <sys_hub_action_input action="delete_multiple" query="model=88eeb2c947a201105c836a03846d4362^sys_idNOT IN88eeb2c947a201105c836a03846d436d,8ceeb2c947a201105c836a03846d4365"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f33a6127-44fd-4d31-be72-d56a0973e146</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>file_path</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>File Path</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ingest Windows MID File">88eeb2c947a201105c836a03846d4362</model>
+        <model_id>88eeb2c947a201105c836a03846d4362</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_88eeb2c947a201105c836a03846d4362</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>88eeb2c947a201105c836a03846d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=88eeb2c947a201105c836a03846d436d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=78890ac0-f32f-4011-af96-d11a0502c7b3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>ecc_agent</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>MID Server</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Ingest Windows MID File">88eeb2c947a201105c836a03846d4362</model>
+        <model_id>88eeb2c947a201105c836a03846d4362</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_88eeb2c947a201105c836a03846d4362</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="ecc_agent">ecc_agent</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>8ceeb2c947a201105c836a03846d4365</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ceeb2c947a201105c836a03846d4365"/>
+    <sys_hub_action_output action="delete_multiple" query="model=88eeb2c947a201105c836a03846d4362^sys_idNOT IN18eeb2c947a201105c836a03846d4390,5ceeb2c947a201105c836a03846d4389,84eeb2c947a201105c836a03846d4384"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=e2c91011-e94a-42e3-beb0-e793bb21d4a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>file_content</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6">4b98e37e3721030003a08fb77e41f1aa</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>File Content</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ingest Windows MID File">88eeb2c947a201105c836a03846d4362</model>
+        <model_id>88eeb2c947a201105c836a03846d4362</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>18eeb2c947a201105c836a03846d4390</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18eeb2c947a201105c836a03846d4390"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18eeb2c947a201105c836a03846d4390"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=041d3336-5f6d-4d13-9ef5-75901931b753,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Ingest Windows MID File">88eeb2c947a201105c836a03846d4362</model>
+        <model_id>88eeb2c947a201105c836a03846d4362</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>5ceeb2c947a201105c836a03846d4389</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5ceeb2c947a201105c836a03846d4389"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ceeb2c947a201105c836a03846d4389"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD4ceeb2c93da20110ca884e503a6c5881,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=ddcc5b73-d3e2-4e73-9127-1cef1983eae4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Ingest Windows MID File">88eeb2c947a201105c836a03846d4362</model>
+        <model_id>88eeb2c947a201105c836a03846d4362</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>84eeb2c947a201105c836a03846d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84eeb2c947a201105c836a03846d4384"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=84eeb2c947a201105c836a03846d4384"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=88eeb2c947a201105c836a03846d4362"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=88eeb2c947a201105c836a03846d4362^sys_idNOT IN9ceeb2c947a201105c836a03846d439c"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Ingest Windows MID File">88eeb2c947a201105c836a03846d4362</action_type_id>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>9ceeb2c947a201105c836a03846d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9ceeb2c947a201105c836a03846d439c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_88eeb2c947a201105c836a03846d4362^sys_idNOT IN0ceeb2c947a201105c836a03846d436c,80eeb2c947a201105c836a03846d4371"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server</element>
+        <help/>
+        <hint/>
+        <label>MID Server</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_88eeb2c947a201105c836a03846d4362</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>0ceeb2c947a201105c836a03846d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>file_path</element>
+        <help/>
+        <hint/>
+        <label>File Path</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_88eeb2c947a201105c836a03846d4362</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>80eeb2c947a201105c836a03846d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_88eeb2c947a201105c836a03846d4362"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362^sys_idNOT IN50eeb2c947a201105c836a03846d4394,98eeb2c947a201105c836a03846d438f,dceeb2c947a201105c836a03846d4388"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>file_content</element>
+        <help/>
+        <hint/>
+        <label>File Content</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>50eeb2c947a201105c836a03846d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:56</sys_created_on>
+        <sys_id>98eeb2c947a201105c836a03846d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>will.hallam</sys_created_by>
+        <sys_created_on>2022-03-28 18:47:55</sys_created_on>
+        <sys_id>dceeb2c947a201105c836a03846d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MID Profiler" source="x_snc_mid_profiler">0fc2fac5476201105c836a03846d438a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MID Profiler">0fc2fac5476201105c836a03846d438a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>will.hallam</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:47:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_88eeb2c947a201105c836a03846d4362"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>c5a4fac5476201105c836a03846d43f6</sys_id>
+        <latest_snapshot>88eeb2c947a201105c836a03846d4362</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
